@@ -1,11 +1,11 @@
 # A-Frame Video Component
-Video component with spatial audio and easy controls for [A-Frame](https://aframe.io) to add it in your scene. 
+Video component with spatial audio, automatic aspect ratio trasnform and easy controls for [A-Frame](https://aframe.io) to add it in your scene. 
 
 ## Demo
 Landscape Video
-![Horizontal](static/horizontal.png) 
+![Landscape](Static/horizontal.png) 
 Portrait Video
-![Porttrait](static/portrait.png)
+![Portrait](Static/portrait.png)
 
 
 ## Getting Started
