@@ -1,5 +1,5 @@
 # A-Frame Video Component
-Video component with spatial audio, automatic aspect ratio trasnform and easy controls for [A-Frame](https://aframe.io) to add it in your scene. 
+Video component with spatial audio, automatic aspect ratio transform and easy controls for [A-Frame](https://aframe.io) to add it in your scene. 
 
 ## Demo
 Landscape Video
