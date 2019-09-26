@@ -1,0 +1,27 @@
+{
+  "name": "aframe-video",
+  "version": "1.0.0",
+  "description": "Video Player for A-frame",
+  "main": "src/video-comp.js",
+  "webpack": "dist/aframe-glow-component.min.js",
+  "scripts": {
+    "start": "budo --live --verbose --port 3000 --open",
+    "dist": "webpack src/video-comp.js && webpack -p src/video-comp.js"
+  },
+  "keywords": [
+    "aframe",
+    "webvr",
+    "vr"
+  ],
+  "author": "Chaitanya Shah",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "budo": "^11.6.3",
+    "shelljs": "^0.8.3",
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  }
+}
