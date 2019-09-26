@@ -19,7 +19,6 @@ To play or pause via code:
 document.querySelector("#videoEntity").setAttribute("video", "play", true);
 ```
 
-Properties:
 ## Properties
 
 | Property      | Description                                                                                                    | Default Value |
