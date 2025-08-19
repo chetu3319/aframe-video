@@ -6,7 +6,7 @@
   "webpack": "dist/aframe-glow-component.min.js",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
-    "dist": "webpack src/video-comp.js && webpack -p src/video-comp.js"
+    "dist": "webpack --mode=production --entry=./src/video-comp.js --output-path=./dist"
   },
   "keywords": [
     "aframe",
@@ -18,10 +18,10 @@
   "dependencies": {
     "browserify": "^16.5.0",
     "budo": "^11.6.3",
-    "shelljs": "^0.8.3",
-    "webpack": "^4.41.0"
+    "shelljs": "^0.8.5",
+    "webpack": "^5.101.3"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^5.1.4"
   }
 }
